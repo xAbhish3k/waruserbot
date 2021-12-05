@@ -1,5 +1,5 @@
 # Waruserbot-heroku
-[![Hits](https://hits
+
 
 This is just heroku support source 
  
