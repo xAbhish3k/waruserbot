@@ -40,7 +40,7 @@ _set_bot () {
     echo "    Starting WarBot    "
     echo "
      
-                                 ok
+                waruserbot                 
     "
     
     python3 ./setup/updater.py ./requirements.txt requirements.txt
