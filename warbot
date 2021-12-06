@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $WAR_REPO == "warbot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3QvY2F0dXNlcmJvdA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3Qvd2FydXNlcmJvdA=" | base64 -d
     elif [[ $WAR_REPO == "WARBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1dhcnVzZXJib3QvY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1dhcnVzZXJib3Qvd2FydXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     elif [[ $WAR_REPO =~ $regex ]]
     then
         if [[ $WAR_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${WAR_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1dhcnVzZXJib3QvY2F0dXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1dhcnVzZXJib3Qvd2FydXNlcmJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
     fi
 }
 
