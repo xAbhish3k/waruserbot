@@ -1,7 +1,7 @@
-FROM waruserbot/catuserbot:slim-buster
+FROM waruserbot/waruserbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/Warruserbot/catuserbot.git /root/userbot
+RUN git clone https://github.com/Warruserbot/waruserbot.git /root/userbot
 #working directory 
 WORKDIR /root/userbot
 
