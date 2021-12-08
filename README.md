@@ -15,7 +15,7 @@
 
 
 
-<h3>  StringSession  </h3>
+<h3>  STRING SESSION  </h3>
   
  
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://generatestringsession.xabhish3k.repl.run) ``Telethon``
