@@ -10,7 +10,7 @@
 
 <h2 align ="center">Don't forget to star this repo if you liked it.!!💝</h2>
 
-<align="center">⚙️ D E P L O Y I N G ⚙️</h2>
+<h2 align="center">⚙️ D E P L O Y I N G ⚙️</h2>
 
 
 
