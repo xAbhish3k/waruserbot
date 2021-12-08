@@ -4,7 +4,7 @@
   <img src="https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.png">
 </p>
 
-  <h2 align The owner would not be responsible for any kind of bans due to the bot.</h2>
+  <h2 align= "center" >The owner would not be responsible for any kind of bans due to the bot.</h2>
   
 <h2 align="center">FORK AT Y YOUR OUR OWN RISK</h1>
 
