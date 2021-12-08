@@ -21,6 +21,12 @@
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://generatestringsession.xabhish3k.repl.run) ``Telethon``
 
 
+- Click On Generate String
+    - Then Click On Green Run Button.
+    - Wait for a while then fill the details.
+    - String will be saved in your Saved Message.
+
+
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
