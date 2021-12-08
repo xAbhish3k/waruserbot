@@ -4,9 +4,18 @@
   <img src="https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.png">
 </p>
 
+  ">The owner would not be responsible for any kind of bans due to the bot.</h2>
+  
+<h2 align="center">FORK AT Y YOUR OUR OWN RISK</h1>
+
+<h2 align ="center">Don't forget to star this repo if you liked it.!!💝</h2>
+
+<align="center">⚙️ D E P L O Y I N G ⚙️</h2>
 
 
-This is just heroku support source 
+
+
+<h1 align= "center"> This is just heroku support source 
  
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://generatestringsession.xabhish3k.repl.run) ``Telethon``
 
