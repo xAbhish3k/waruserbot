@@ -27,6 +27,7 @@
     - String will be saved in your Saved Message.
 
 
+<h3> DEPLOY TO HEROKU </h3>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
