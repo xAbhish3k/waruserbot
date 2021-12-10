@@ -58,7 +58,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "Don't change",
-      "value": "https://github.com/waruserbot/waruserbot",
+      "value": "waruserbot",
       "required": false
     }
   },
