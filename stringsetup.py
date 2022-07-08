@@ -1,21 +1,32 @@
-#!/usr/bin/env python3
-# (c) https://t.me/TelethonChat/37677
-# This Source Code Form is subject to the terms of the GNU
-# General Public License, v.3.0. If a copy of the GPL was not distributed with this
-# file, You can obtain one at https://www.gnu.org/licenses/gpl-3.0.en.html.
-
+import os
+os.system("pip install telethon")
+os.system("pip install pyrogram")
+from pyrogram import Client
 from telethon.sessions import StringSession
 from telethon.sync import TelegramClient
 
-print(
-    """Please go-to my.telegram.org
-Login using your Telegram account
-Click on API Development Tools
-Create a new application, by entering the required details"""
-)
-APP_ID = int(input("Enter APP ID here: "))
-API_HASH = input("Enter API HASH here: ")
 
-with TelegramClient(StringSession(), APP_ID, API_HASH) as client:
-    print(client.session.save())
-    client.send_message("me", client.session.save())
+print("•••   WARUSERBOT  SESSION  GENERATOR   •••")
+print("\nHello!! Welcome to WarBot Session Generator\n")
+okvai = input("Enter 69 to continue: ")
+if okvai == "69":
+    print("Choose the string session type: \n1. WARUSERBOT \n2. Music Bot")
+    library = input("\nYour Choice: ")
+    if library == "1":
+        print("\nTelethon Session For WarUserBot")
+        APP_ID = int(input("\nEnter APP ID here: "))
+        API_HASH = input("\nEnter API HASH here: ")
+        with TelegramClient(StringSession(), APP_ID, API_HASH) as hellbot:
+            print("\nYour Waruserbot Session Is sent in your Telegram Saved Messages.")
+            hellbot.send_message("me", f"#WARUSERBOT #WARUSERBOT_SESSION \n\n`{hellbot.session.save()}`")
+    elif library == "2":
+        print("Pyrogram Session for Music Bot")
+        APP_ID = int(input("\nEnter APP ID here: "))
+        API_HASH = input("\nEnter API HASH here: ")
+        with Client(':memory:', api_id=APP_ID, api_hash=API_HASH) as hellbot:
+            print("\nYour HellBot Session Is sent in your Telegram Saved Messages.")
+            hellbot.send_message("me", f"#WARUSERBOT_MUSIC #WARUSERBOT_SESSION\n\n`{hellbot.export_session_string()}`")
+    else:
+        print("Please Enter 1 or 2 only.")
+else:
+    print("DONE")
