@@ -21,12 +21,12 @@ repo.heads[_BRANCH_].checkout(True) ')
 
 _hell_repo () {
     local hrepo
-    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L1BsdWdpbnM=" | base64 -d`
+    hrepo=`echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3QvUGx1Z2lucw==" | base64 -d`
     echo "$rlink"
 }
 
 _hell_zip () {
-    echo "aHR0cHM6Ly9naXRodWIuY29tL1RoZS1IZWxsQm90L1BsdWdpbnMvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+    echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3QvUGx1Z2lucy9hcmNoaXZlL21hc3Rlci56aXA= " | base64 -d
 }
 
 _HELLBOT_PLUG() {
