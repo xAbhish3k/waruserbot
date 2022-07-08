@@ -1,65 +1,54 @@
 {
-  "name": "Waruserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Abhishek Singh",
-  "logo": "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg",
+  "name": "WARUSERBOT",
+  "description": "One of the best Userbot for Telegram. Known for its Smoothness, Design, Support.",
+  "logo": "https://telegra.ph/file/44edfd6fa6faaf5284264.jpg",
   "keywords": [
+    "telegram",
+    "userbot",
     "plugin",
+    "telethon",
+    "waruserbot",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/xAbhish3k/waruserbot",
-  "website": "#TODO",
-  "success_url": "#TODO",
+  "repository": "https://github.com/MeAbhish3k/waruserbot/",
   "env": {
-    "ALIVE_NAME": {
-      "description": "give your name",
-      "value": ""
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ABUSE": {
+      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "value": "ON",
+      "required": false
+    },
+    "HANDLER": {
+      "description": "Your command handler. Default is ' . ' (dot).",
+      "value": "."
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org",
       "value": ""
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org! Please do not steal",
+      "description": "Get this value from my.telegram.org",
       "value": ""
     },
-    "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.xabhish3k.repl.run",
+    "WARUSERBOT_SESSION": {
+      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
-    },
-    "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
-      "value": ""
-    },
-    "COMMAND_HAND_LER": {
-      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
-      "value": ".",
-      "required": false
-    },
-    "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
-      "value": "ANYTHING",
-      "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
-      "value": "",
-      "required": false
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "value": ""
     },
     "HEROKU_APP_NAME": {
-      "description": "YOUR app name ",
-      "value": "",
-      "required": false
+      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "value": ""
     },
-    "TZ": {
-      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
-      "value": "Asia/Kolkata",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "Don't change",
-      "value": "https://Github.com/xAbhish3k/Waruserbot",
-      "required": false
+    "BOT_TOKEN": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
     }
   },
   "addons": [{
