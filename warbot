@@ -45,7 +45,7 @@ repo.heads[_BRANCH_].checkout(True) ')
 _starter () {
     local hellpath
     hellpath="Plugins.zip"
-    echo "••• DOWNLOADING HELLBOT •••"
+    echo "••• DOWNLOADING WARUSERBOT •••"
     wget -q $(_hell_zip) -O "$hellpath"
     HELLPATH=$(zipinfo -1 "$hellpath" | grep -v "/.");
     unzip -qq "$hellpath"
