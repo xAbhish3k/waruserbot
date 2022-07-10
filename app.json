@@ -34,7 +34,7 @@
       "description": "Get this value from my.telegram.org",
       "value": ""
     },
-    "HELLBOT_SESSION": {
+    "STRING_SESSION": {
       "description": "Get this value by using repl or termux. Refer to Repo for more info.",
       "value": ""
     },
