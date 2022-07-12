@@ -55,7 +55,7 @@ _starter () {
     # _HELLBOT_PLUG
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     echo "••• STARTING WARUSERBOT •••"
-    python3 -m hellbot
+    python3 -m warbot
 }
 
 _starter
