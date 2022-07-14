@@ -41,7 +41,7 @@
 
 ## credits ❤️
 
-[socha nhi 🙂]
+[Catuserbot 🙂]
 
 
 
