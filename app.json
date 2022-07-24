@@ -1,13 +1,13 @@
 {
-  "name": "Waruserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Abhishek Singh",
-  "logo": "https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.jpg",
+  "name": "CatUserbot",
+  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
+  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/xAbhish3k/waruserbot",
+  "repository": "https://github.com/xabhish3k/waruserbot",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -24,11 +24,11 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.xabhish3k.repl.run",
+      "description": "Get this value by running python3 stringsetup.py locally or https://generatestringsession.sandeep1709.repl.run",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.",
       "value": ""
     },
     "COMMAND_HAND_LER": {
@@ -56,9 +56,14 @@
       "value": "Asia/Kolkata",
       "required": false
     },
-    "UPSTREAM_REPO": {
-      "description": "Don't change",
-      "value": "https://Github.com/xAbhish3k/Waruserbot",
+    "EXTERNAL_REPO": {
+      "description": "To install external plugins. if you don't want, change value to 'False'",
+      "value": "True",
+      "required": false
+    },
+    "BADCAT": {
+      "description": "set 'True' to install 18+ plugins.",
+      "value": "False",
       "required": false
     }
   },
@@ -81,6 +86,9 @@
   },{
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
   },{
+    "url": "https://github.com/rahulps1000/heroku-buildpack-nodejs"
+  },{
     "url": "heroku/python"
-  }]
+  }],
+  "stack": "heroku-22"
 }
