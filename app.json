@@ -19,7 +19,7 @@
     },
     "ABUSE": {
       "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
-      "value": "ON",
+      "value": "",
       "required": false
     },
     "HANDLER": {
