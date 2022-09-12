@@ -44,7 +44,7 @@ tgcrypto
 validators
 vcam
 
-git+https://github.com/xAbhish3k/py-googletrans
-git+https://github.com/xAbhish3k/Wikipedia
-git+https://github.com/xAbhish3k/yt-dp-fork
-git+https://github.com/xAbhish3k/yt-search-python
+git+https://github.com/xAbhish3k/py-googletrans@master
+git+https://github.com/xAbhish3k/Wikipedia@master
+git+https://github.com/xAbhish3k/yt-dp-fork@master
+git+https://github.com/xAbhish3k/yt-search-python@master
