@@ -46,5 +46,4 @@ vcam
 
 git+https://github.com/xAbhish3k/py-googletrans@master
 git+https://github.com/xAbhish3k/Wikipedia@master
-git+https://github.com/xAbhish3k/yt-dp-fork@master
 git+https://github.com/xAbhish3k/yt-search-python@master
