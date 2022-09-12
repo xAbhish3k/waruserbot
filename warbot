@@ -6,7 +6,7 @@ _hell_zip () {
     then
         echo "https://github.com/${GIT_REPO}/archive/master.zip"
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1dhcnVzZXJib3QvUGx1Z2lucy1U=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL3dhcnVzZXJib3QvUGx1Z2lucy1UL2FyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
     fi
 }
 
