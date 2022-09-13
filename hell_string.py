@@ -8,14 +8,14 @@ from telethon.sync import TelegramClient
 
 
 def main():
-    print("T E A M    H E L L B O T   ! !")
-    print("Hello!! Welcome to HellBot Session Generator\n")
+    print("T E A M    W A R B O T   ! !")
+    print("Hello!! Welcome to WaruserBot Session Generator\n")
     print("Human Verification Required !!")
     while True:
         verify = int(randint(1, 50))
         okvai = int(input(f"Enter {verify} to continue: "))
         if okvai == verify:
-            print("\nChoose the string session type: \n1. HellBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
+            print("\nChoose the string session type: \n1. WaruserBot (Telethon) \n2. Music Bot (Pyrogram) \n3. Instagram Session")
             while True:
                 library = input("\nYour Choice: ")
                 if library == "1":
@@ -39,27 +39,27 @@ def generate_pyro_session():
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
     with PClient(':memory:', api_id=APP_ID, api_hash=API_HASH) as hellbot:
-        print("\nYour HellBot Session Is sent in your Telegram Saved Messages.")
+        print("\nYour WaruserBot Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#HELLBOT_MUSIC #HELLBOT_SESSION #PYROGRAM\n\n`{hellbot.export_session_string()}`",
+            f"#WarUserBOT_MUSIC #WARUSERBOT_SESSION #PYROGRAM\n\n`{hellbot.export_session_string()}`",
         )
 
 
 def generate_telethon_session():
-    print("\nTelethon Session For HellBot!")
+    print("\nTelethon Session For WarUserBot!")
     APP_ID = int(input("\nEnter APP ID here: "))
     API_HASH = input("\nEnter API HASH here: ")
     with TelegramClient(StringSession(), APP_ID, API_HASH) as hellbot:
-        print("\nYour HellBot Session Is sent in your Telegram Saved Messages.")
+        print("\nYour WarUserBot Session Is sent in your Telegram Saved Messages.")
         hellbot.send_message(
             "me",
-            f"#HELLBOT #HELLBOT_SESSION #TELETHON \n\n`{hellbot.session.save()}`",
+            f"#WARUSERBOT #WARBOT_SESSION #TELETHON \n\n`{hellbot.session.save()}`",
         )
 
 
 def generate_insta_session():
-    print("Instagram Session For HellBot!")
+    print("Instagram Session For WARBot!")
     cl = IClient()
     username = input("Enter your Instagram Username: ")
     password = input("Enter your Instagram Password: ")
