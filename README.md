@@ -32,6 +32,12 @@
 
 [![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TECHNOBOT-OP/warbot)
 
+## SAFETY GUIDE LINES
+
+👉 Don't use New Tg Id (use 7,8 month old id)
+👉 Don't use Fake Number
+👉 Don't use Fake Gmail Id
+
 
 ### Official Supports
 
