@@ -13,11 +13,8 @@
 <h2 align="center">⚙️ D E P L O Y I N G ⚙️</h2>
 
 
-
-
 <h3>  STRING SESSION  </h3>
   
- 
 [![GenerateString](https://img.shields.io/badge/repl.it-generateString-yellowgreen)](https://generatestringsession.xabhish3k.repl.run) ``Telethon``
 
 
@@ -30,6 +27,10 @@
 <h3> DEPLOY TO HEROKU </h3>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+<h3> DEPLOY TO RENDER </h3>
+
+[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TECHNOBOT-OP/warbot)
 
 
 ### Official Supports
