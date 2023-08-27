@@ -1,7 +1,7 @@
 <h1 align="center">❤️ 🅆🄰🅁🅄🅂🄴🅁🄱🄾🅃 ❤️</h1>
 
 <p align="center">
-  <img src="https://telegra.ph/file/4b0a3d49d8bf1e2e85fea.png">
+  <img src="https://telegra.ph/file/7b3fe6a6a6945ab4d41da.jpg">
 </p>
 
   <h2 align= "center" >The owner would not be responsible for any kind of bans due to the bot.</h2>
