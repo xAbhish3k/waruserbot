@@ -30,7 +30,7 @@
 
 <h3> DEPLOY TO RENDER </h3>
 
-[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/TECHNOBOT-OP/warbot)
+[![Deploy](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/MeAbhish3k/waruserbot)
 
 ## SAFETY GUIDE LINES
 ```
