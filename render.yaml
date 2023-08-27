@@ -23,6 +23,6 @@ services:
       - key: DATABASE_URL
         sync: false
       - key: PYTHON_VERSION
-        sync: false
+        value: 3.10.6
         
     autoDeploy: false
