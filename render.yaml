@@ -5,7 +5,7 @@ services:
     env: python
     buildCommand: pip install -U -r requirements.txt
     startCommand: python3 server.py & bash warbot
-    repo: https://github.com/TECHNOBOT-OP/warbot   
+    repo: https://github.com/MeAbhish3k/waruserbot   
     branch: master
     envVars:
       - key: ABUSE
