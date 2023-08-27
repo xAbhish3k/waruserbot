@@ -24,4 +24,5 @@ services:
         sync: false
       - PYTHON_VERSION
         sync: false
+        
     autoDeploy: false
