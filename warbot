@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 _hell_zip () {
     if [[ $GIT_REPO ]]
     then
@@ -28,9 +27,15 @@ _starter () {
     unzip -qq "$hellpath"
     rm -rf "$hellpath"
     cd $HELLPATH
+    echo "••• UPDATING WARUSERBOT •••"
+    git pull
     python3 ../updater.py ../requirements.txt requirements.txt
     echo "••• STARTING WARUSERBOT •••"
     _library
 }
 
-_starter
+if [[ "$1" == "upgrade" ]]; then
+    _starter
+else
+    echo "Usage: $0 upgrade"
+fi
