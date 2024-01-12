@@ -1,6 +1,6 @@
 {
   "name": "WarUserBot",
-  "description": "One of the best Userbot for Telegram. Known for its Smoothness, Design, Support.",
+  "description": "One of the best Userbots for Telegram. Known for its Smoothness, Design, Support.",
   "logo": "https://telegra.ph/file/5cadf9784f067a75dc51c.jpg",
   "keywords": [
     "telegram",
@@ -14,11 +14,11 @@
   "repository": "https://github.com/xabhish3k/waruserbot/",
   "env": {
     "ENV": {
-      "description": "Setting this to ANYTHING will enable heroku.",
+      "description": "Setting this to ANYTHING will enable Heroku.",
       "value": "ANYTHING"
     },
     "ABUSE": {
-      "description": "Leave it blank if you dont want Profanity in HellBot. Else Fill ON.",
+      "description": "Leave it blank if you don't want Profanity in WarUserBot. Else Fill ON.",
       "value": "OFF",
       "required": false
     },
@@ -35,15 +35,15 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by using repl or termux. Refer to Repo for more info.",
+      "description": "Get this value by using repl or Termux. Refer to the Repo for more info.",
       "value": ""
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "description": "Go to https://dashboard.heroku.com/account, scroll down, and press Reveal API. Required for the updater to work.",
       "value": ""
     },
     "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "description": "The Value of App Name you filled in right on top. Required for the updater to work.",
       "value": ""
     },
     "BOT_TOKEN": {
@@ -51,25 +51,32 @@
       "value": ""
     }
   },
-  "addons": [{
-    "plan": "heroku-postgresql",
-    "options": {
-      "version": "12"
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
     }
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
-  },{
-    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
- 
-
-  },{
-    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
-  },{
-    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
-  },{
-    "url": "heroku/python"
-  }]
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+    },
+    {
+      "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
 }
