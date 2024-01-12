@@ -1,4 +1,4 @@
-<h1 align="center">❤️ 🅆🄰🅁🅄🅂🄴🅁🄱🄾🅃 ❤️</h1>
+<h1 align="center">𝙒𝙖𝙧𝙐𝙨𝙚𝙧𝘽𝙤𝙩 {🇮🇳}</h1>
 
 <p align="center">
   <img src="https://telegra.ph/file/7b3fe6a6a6945ab4d41da.jpg">
