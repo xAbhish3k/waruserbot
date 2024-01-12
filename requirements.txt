@@ -45,7 +45,9 @@ telethon==1.24.0
 tgcrypto
 validators
 vcam
+speedtest-cli
 
 git+https://github.com/xAbhish3k/py-googletrans@master
 git+https://github.com/xAbhish3k/Wikipedia@master
 git+https://github.com/xAbhish3k/yt-search-python@master
+ 
